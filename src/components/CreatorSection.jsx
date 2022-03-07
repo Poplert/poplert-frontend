@@ -3,7 +3,7 @@ import { Grid, Typography, Avatar } from "@mui/material";
 
 export const CreatorSection = () => {
   return (
-    <Grid container justifyContent="center" spacing={2}>
+    <Grid container justifyContent="center" rowSpacing={2}>
       <Grid item xs={12} display="flex" justifyContent="center">
         <Avatar alt="Remy Sharp" sx={{ width: 100, height: 100 }} />
       </Grid>
